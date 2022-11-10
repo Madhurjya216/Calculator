@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=DynaPuff:wght@400;500;600&family=Fasthand&family=Libre+Baskerville&family=Lobster&family=Mochiy+Pop+One&family=Nunito:wght@200;400;600;800&family=Playfair+Display&family=Poppins:wght@100;200;300;400&family=Raleway:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container h1{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: red;
+}
+
+.contain{
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;;
+    padding: 10px 20px;
+    background: black;
+    border-radius: 10px;
+    margin-top: 10px
+}
+
+.row button{
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 4px;
+    box-shadow: 0.5px 0.5px 4.5px black;;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.row button:active{
+    font-size: 15px;
+}
+
+.row button:hover{
+    background: white;
+    color: black;
+}
+
+.row{
+    margin: 5px;
+}
+
+#btn-1{
+    padding: 8px 16px;
+}
+
+#btn-2{
+    padding: 8px 16px;
+}
+
+#btn-3{
+    padding: 8px 15px;
+}
+
+#btn-4{
+    padding: 8px 14px;
+}
+
+#btn-5{
+    padding: 8px 14px;
+}
+
+#btn-6{
+    padding: 8px 10px;
+}
+
+#btn-7{
+    padding: 8px 18px;
+}
+
+#btn-8{
+    padding: 8px 17px;
+}
+
+#btn-9{
+    padding: 8px 65px;
+    background: orange;
+}
+
+#btn-9:hover{
+    background: orangered;
+}
+
+
+.btn-all{
+    background: orange;
+    color: white;
+}
+
+.btn-color{
+    background: black;
+    color: white;
+}
+
+.contain input{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid white;;
+    background: black;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+hr{
+    margin: 0px 10px;
+}
