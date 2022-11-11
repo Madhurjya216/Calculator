@@ -9,7 +9,7 @@ Array.from(buttons).forEach((button)=>{
         else if(e.target.innerHTML == 'C'){
             string = "";
             document.querySelector("input").value = string;
-        }
+        }  
         else{
             string = string + e.target.innerHTML;
             document.querySelector("input").value = string;
