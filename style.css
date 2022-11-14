@@ -79,6 +79,8 @@
 
 #btn-4{
     padding: 8px 14px;
+    background: white;
+    color: black;
 }
 
 #btn-5{
@@ -88,7 +90,7 @@
 #btn-6{
     padding: 8px 10px;
 }
-
+ 
 #btn-7{
     padding: 8px 18px;
 }
