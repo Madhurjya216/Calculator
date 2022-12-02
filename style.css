@@ -135,11 +135,3 @@ hr{
 }
 
 
-
-
-
-@media(max-width: 900px){
-    .contain{
-        width: 25%;
-    }
-}
