@@ -139,7 +139,7 @@ hr{
 
 
 @media(max-width: 750px){
-    .container{
-        margin: 0px 5%;
+    .contain{
+        width: 25%;
     }
 }
